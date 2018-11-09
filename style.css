@@ -76,8 +76,9 @@ a:hover {
 
 /* #WELCOME SECTION */
 
-div#welcome-section {
-	height: 100vh;
+#welcome-section {
+
+  height: calc(100vh - 50vh);
 		
 	background: var(--white);
 	color: (--black);
@@ -87,17 +88,17 @@ div#welcome-section {
 	text-align: center;
 }
 
-.projects-title {
-	grid-area: projects-title;
+.projects-header {
+	grid-area: projects-header;
 	text-align: center;
 }
 
-div#projects {
+#projects {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2%;
 	grid-template-areas: 
-	"projects-title projects-title"
+	"projects-header projects-header"
 	"project-1 project-2"
 	"project-3 project-4";
 
