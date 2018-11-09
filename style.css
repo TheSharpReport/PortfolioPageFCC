@@ -88,8 +88,8 @@ a:hover {
 	text-align: center;
 }
 
-.projects-header {
-	grid-area: projects-header;
+.projects-title {
+	grid-area: projects-title;
 	text-align: center;
 }
 
@@ -98,7 +98,7 @@ a:hover {
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 2%;
 	grid-template-areas: 
-	"projects-header projects-header"
+	"projects-title projects-title"
 	"project-1 project-2"
 	"project-3 project-4";
 
